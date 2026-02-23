@@ -1,81 +1,198 @@
-# Basics-of-Python
-## Experiment–1
-### Title
-Introduction to Python Programming and Installation of Jupyter Notebook Using Anaconda
+# Experiment–2
+# Title: Python Environment, Data Types, Operators, and Basic Input/Output
 ________________________________________
-### Aim
-To study the basics of Python programming language, understand the Python execution environment, install Python and Jupyter Notebook using Anaconda distribution, and explore various Python IDEs including Google Colab.
+## Aim
+To study the Python programming environment and interface, understand execution modes, variables, data types, operators, and basic input/output operations in Python.
 ________________________________________
-### Objectives
-•	To understand Python features and applications
-•	To install Python and Jupyter Notebook using Anaconda
-•	To explore Python IDEs and environments
-•	To execute basic Python programs using Jupyter Notebook and Google Colab
+## Objectives
+•	To understand the Python programming environment and interface
+•	To study Python execution modes
+•	To understand comments in Python
+•	To learn variables, identifier rules, and data types
+•	To study different operators and expressions
+•	To understand basic input and output mechanisms
 ________________________________________
-### Theory
-#### 1. Introduction to Python
-Python is a high-level, interpreted, and object-oriented programming language widely used for data analysis, machine learning, automation, and scientific computing.
+## Theory
+### 1. Python Environment and Interface
+The Python environment provides tools and interfaces to write, execute, and debug Python programs. Python programs can be executed using different interfaces such as:
+
+•	Python Shell
+
+•	Jupyter Notebook
+
+•	Integrated Development Environments (IDEs) like Spyder, PyCharm, and VS Code
+
+•	Cloud-based platforms like Google Colab
+
+The interface allows users to write code, execute instructions, and view results interactively.
 ________________________________________
-#### 2. What is Anaconda?
-Anaconda is a free, open-source distribution of Python and R designed for data science and machine learning.
-Advantages of Anaconda:
-•	Comes with Python, Jupyter Notebook, Spyder, and libraries pre-installed
-•	Easy package and environment management
-•	Avoids dependency issues
-•	Suitable for beginners and professionals
+### 2. Python Execution Modes
+Python supports two main execution modes:
+
+a) Interactive Mode
+
+•	Commands are executed one line at a time
+
+•	Immediate output is displayed
+
+•	Useful for testing small code snippets and learning
+
+Examples: Python shell, Jupyter Notebook cells, Google Colab
+
+b) Script Mode
+
+•	Programs are written in a file and executed as a whole
+
+•	Suitable for developing complete applications
+
+•	Files usually have .py extension
 ________________________________________
-### Why python?
+### 3. Comments in Python
+Comments are non-executable statements used to explain code and improve readability.
 
-<img width="616" height="390" alt="image" src="https://github.com/user-attachments/assets/70357001-df61-42e7-bde8-ac2a2c5ef27f" />
-<img width="630" height="373" alt="image" src="https://github.com/user-attachments/assets/0056b0e8-00a5-4e6b-83cb-794f5e6209ee" />
- 
-### Why Jupyter NoteBook?
+•	Single-line comments: Begin with
 
-<img width="661" height="384" alt="image" src="https://github.com/user-attachments/assets/059d2b55-ffb8-49d1-af5c-ef6ca556004a" />
+•	Multi-line comments: Written using triple quotes (""" """)
 
-#### 3. Installation of Anaconda and Jupyter Notebook
-Step-1: Download Anaconda
-1.	Visit the official Anaconda website: https://www.anaconda.com
-2.	Click on Download and select Anaconda Individual Edition.
-3.	Choose Python 3.x version suitable for your operating system.
- 
-<img width="940" height="490" alt="image" src="https://github.com/user-attachments/assets/adb65f85-a6eb-4698-b5ce-995d0eee0d36" />
-<img width="940" height="515" alt="image" src="https://github.com/user-attachments/assets/a94b141d-f6b0-4f99-920c-b96705384fdc" />
-<img width="940" height="370" alt="image" src="https://github.com/user-attachments/assets/c61e7074-6484-46f2-adfc-01c8c848fdb0" />
-<img width="940" height="702" alt="image" src="https://github.com/user-attachments/assets/4453f1c5-656a-4dd7-8301-26da1b0f385e" />
-<img width="940" height="690" alt="image" src="https://github.com/user-attachments/assets/e5774724-5521-4d26-beb1-7a2cbc7918e3" />
-<img width="940" height="726" alt="image" src="https://github.com/user-attachments/assets/f50539a4-3c94-47c3-9fb4-5744a03fe262" />
-<img width="940" height="696" alt="image" src="https://github.com/user-attachments/assets/26fd38d6-7c46-4bcc-be07-9546a8f97950" />
-<img width="940" height="727" alt="image" src="https://github.com/user-attachments/assets/16b89f7a-e652-4cba-b4a5-bc0690e240ef" />
-<img width="940" height="693" alt="image" src="https://github.com/user-attachments/assets/58b8c405-d260-438b-a376-f26184f6cf66" />
-<img width="940" height="683" alt="image" src="https://github.com/user-attachments/assets/4c6e0c94-a2a2-4e83-8cd7-ac3795001648" />
-<img width="940" height="485" alt="image" src="https://github.com/user-attachments/assets/e390925e-7abc-4a04-9b49-7aa63ae98c2d" />
-<img width="940" height="454" alt="image" src="https://github.com/user-attachments/assets/28086fdb-6761-4a64-bdfa-4ebb55242b1d" />
-<img width="940" height="467" alt="image" src="https://github.com/user-attachments/assets/b991bb63-cfa4-4eed-98a6-930dabb66209" />
-<img width="635" height="473" alt="image" src="https://github.com/user-attachments/assets/aa5341bd-ae61-4623-8f6d-93a7ac254ac8" />
+Comments help in documentation and understanding program logic.
+________________________________________
+### 4. Variables and Identifiers
+A variable is a named memory location used to store data values.
 
-### Python IDEs
-IDE  Description
-IDLE  Basic Python IDE
-Spyder  Scientific Python IDE (Anaconda)
-PyCharm  Professional Python IDE
-VS Code  Lightweight code editor
-Jupyter Notebook	Interactive EDA environment
+Rules for Identifiers:
 
-### Google Colab
-Google Colab is a cloud-based Python environment provided by Google.
-Advantages:
-•	No installation required
-•	Free GPU/TPU access
-•	Easy collaboration
-•	Runs in browser
+•	Must start with a letter (A–Z, a–z) or underscore _
 
-<img width="940" height="699" alt="image" src="https://github.com/user-attachments/assets/41f09036-d381-4ccf-a468-a503dc21abe7" />
+•	Cannot start with a digit
 
-### Steps to Use Google Colab:
-1.	Visit https://colab.research.google.com
-2.	Sign in using Google account
-3.	Create a new Python notebook
+•	Case-sensitive
 
-### Conclusion
-Python provides a flexible and powerful programming environment. Jupyter Notebook and Google Colab simplify learning and exploratory data analysis by providing interactive execution and visualization support.
+•	Should not use Python keywords
+
+Python uses dynamic typing, meaning variables do not require explicit data type declaration.
+________________________________________
+### 5. Data Types in Python
+Python provides several built-in data types to store different kinds of data.
+
+Basic Data Types
+
+•	Integer (int): Whole numbers
+
+•	Floating-point (float): Decimal numbers
+
+•	String (str): Sequence of characters
+
+•	Boolean (bool): True or False
+
+The data type of a variable can be identified using the type() function.
+________________________________________
+### 6. Operators and Expressions
+Operators are symbols used to perform operations on variables and values.
+
+Types of Operators
+
+•	Arithmetic Operators: Used for mathematical calculations
+(+, -, *, /, %)
+
+•	Relational Operators: Used for comparison
+(>, <, >=, <=, ==, !=)
+
+•	Logical Operators: Used to combine conditions
+(and, or, not)
+
+•	Assignment Operators: Used to assign values
+(=, +=, -=, *=, /=)
+
+•	Bitwise Operators: Perform operations at bit level
+(&, |, ^, <<, >>)
+
+An expression is a combination of operators and operands that produces a result.
+________________________________________
+### 7. Basic Input and Output Operations
+Input and output operations allow interaction between the user and the program.
+
+•	Input:
+
+input() function is used to accept input from the user.
+
+Input is treated as a string by default and may require type conversion.
+
+•	Output:
+
+print() function is used to display output.
+
+Formatted output can be achieved using commas or formatted strings.
+________________________________________
+## Conclusion
+Thus, the Python programming environment, execution modes, variables, data types, operators, and basic input/output operations were studied and understood.
+
+
+
+## Programs
+### 1.	Comments
+
+#### This is a single-line comment
+#### Program to demonstrate Python interface and comments
+"""
+This is a multi-line comment (docstring).
+Python supports interactive and script modes.
+"""
+print("Welcome to Python Programming")
+print("This program demonstrates comments and execution modes")
+
+### 2.	Variable declaration
+student_name = "Snehal"
+age = 45
+height = 5.3
+is_faculty = True
+
+Display data types
+print("Name:", student_name, "Type:", type(student_name))
+print("Age:", age, "Type:", type(age))
+print("Height:", height, "Type:", type(height))
+print("Faculty Status:", is_faculty, "Type:", type(is_faculty))
+
+
+
+
+
+### 3.	Arithmetic, relational, logical, assignment, and bitwise operators
+a = 10
+b = 5
+
+#### Arithmetic Operators
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+#### Relational Operators
+print("a > b:", a > b)
+print("a == b:", a == b)
+
+#### Logical Operators
+print("AND:", a > 5 and b > 2)
+print("OR:", a > 20 or b > 2)
+print("NOT:", not(a > b))
+
+#### Assignment Operators
+c = a
+c += b
+print("Assignment Result:", c)
+
+#### Bitwise Operators
+print("Bitwise AND:", a & b)
+print("Bitwise OR:", a | b)
+
+
+
+
+### 4.	Input and display formatted output using input() and print()
+
+#### Input from user
+name = input("Enter your name: ")
+marks = int(input("Enter your marks: "))
+
+#### Output using formatted print
+print("Student Name:", name)
+print("Marks Obtained:", marks)
