@@ -1,4 +1,4 @@
-# Experiment–2
+# Experiment–1
 # Title: Python Environment, Data Types, Operators, and Basic Input/Output
 ________________________________________
 ## Aim
